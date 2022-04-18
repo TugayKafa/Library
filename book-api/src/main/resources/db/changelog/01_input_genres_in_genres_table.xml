@@ -1,0 +1,73 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+    <changeSet author="Tugay Kafa" id="1">
+        <insert tableName="genres">
+            <column name="name" value="romance"/>
+        </insert>
+        <insert tableName="genres">
+            <column name="name" value="adventure"/>
+        </insert>
+        <insert tableName="genres">
+            <column name="name" value="fantasy"/>
+        </insert>
+        <insert tableName="genres">
+            <column name="name" value="contemporary"/>
+        </insert>
+        <insert tableName="genres">
+            <column name="name" value="dystopian"/>
+        </insert>
+        <insert tableName="genres">
+            <column name="name" value="mystery"/>
+        </insert>
+        <insert tableName="genres">
+            <column name="name" value="horror"/>
+        </insert>
+        <insert tableName="genres">
+            <column name="name" value="thriller"/>
+        </insert>
+        <insert tableName="genres">
+            <column name="name" value="paranormal"/>
+        </insert>
+        <insert tableName="genres">
+            <column name="name" value="historical fiction"/>
+        </insert>
+        <insert tableName="genres">
+            <column name="name" value="science fiction"/>
+        </insert>
+        <insert tableName="genres">
+            <column name="name" value="childrens"/>
+        </insert>
+        <insert tableName="genres">
+            <column name="name" value="memoir"/>
+        </insert>
+        <insert tableName="genres">
+            <column name="name" value="cooking"/>
+        </insert>
+        <insert tableName="genres">
+            <column name="name" value="art"/>
+        </insert>
+        <insert tableName="genres">
+            <column name="name" value="personal"/>
+        </insert>
+        <insert tableName="genres">
+            <column name="name" value="development"/>
+        </insert>
+        <insert tableName="genres">
+            <column name="name" value="motivational"/>
+        </insert>
+        <insert tableName="genres">
+            <column name="name" value="health"/>
+        </insert>
+        <insert tableName="genres">
+            <column name="name" value="travel"/>
+        </insert>
+        <insert tableName="genres">
+            <column name="name" value="families and relationships"/>
+        </insert>
+        <insert tableName="genres">
+            <column name="name" value="humor"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>
